@@ -6,32 +6,36 @@ The purpose of this analysis appears to be to create a machine learning model th
 
 **Results**
 
-**Target Variable(s):**
+**Data Preprocessing**
 
+Target Variable(s):
 - The target variable for the model in this analysis is 'IS_SUCCESSFUL'. This variable represents whether a charity organization's application for funding was successful (1) or not (0).
 
-**Feature Variables:**
-
+Feature Variables:
 - The feature variables for the model include all the remaining columns in the dataset except for 'IS_SUCCESSFUL', as it is the target variable. These features includes data such as the organization's application type, affiliation, classification, use case, organization type, status, income amount, special considerations, and ask amount.
 
-**Variables to Remove:**
-
+Variables to Remove:
 - The variables 'EIN' and 'NAME' were removed from the input data during preprocessing because they are neither target nor feature variables. These columns represent identification information for each organization and do not provide relevant predictive information for the target variable.
+
+**Compiling, Training, and Evaluating the Model**
 
 **Model 1 Parameters**
 
 ![image](https://github.com/rkb81/deep-learning-challenge/blob/main/model1_parameters.png)
 
-**Model 1 Parameters**
+- The first hidden layer used ReLU because of its simplicity as a mathematical function. Next, the second hidden layer and output layer used sigmoid because of its effective performance of binary classification tasks.
+
+**Model 1 Evaluation**
 
 ![image](https://github.com/rkb81/deep-learning-challenge/blob/main/model1_evaluation.png)
 
+**Target model performance**
 
-**Summary**
+The target model performance is 75%. The model accuracy is approximately 72%, which falls short to the target model performance.
 
-- Model 2, which uses resampled training data to address class imbalance, outperforms Model 1.
-- Model 2 achieves a higher balanced accuracy score (0.9942) compared to Model 1 (0.9521).
-- Model 2 also achieves excellent recall scores for both classes, indicating strong performance in identifying loan statuses.
+**Increasing model performance**
+
+In subsequent model generation, several methods were attempted to enhance performance. 
 
 **Recommendation:**
 
