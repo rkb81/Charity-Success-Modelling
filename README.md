@@ -35,8 +35,14 @@ The target model performance is 75%. The model accuracy is approximately 72%, wh
 
 **Increasing model performance**
 
-In subsequent model generation, several methods were attempted to enhance performance. 
+In subsequent model generation, several methods were attempted to enhance performance. The neuron count, layers and epochs were all increased in an attempt to reach the target model performance. Also, the activation function was changed to the tanh function. Increasing model complexity only improved model accuracy an additional 1%.
+
+**Overall Results:**
+
+Initial Model Accuracy: 72%
+After Increasing Complexity: 73%
+Final Model: 73%
 
 **Recommendation:**
 
-Based on the results, Model 2, which uses logistic regression with resampled training data, is recommended for predicting loan statuses. It is superior to model 1 in terms of balanced accuracy score, recall for high risk loans and class imbalance handling. The performance of a machine learning model can depend on the specific problem. If one class significantly outnumbers the other (as seen in this dataset where healthy loans greatly outnumber high-risk loans), the model's performance may be heavily biased towards the larger class. In this case, accurately predicting the smaller class (class 1, high-risk loans) might be more critical, especially if the cost of false negatives (missed high-risk loans) is high. 
+Because the added complexity to the model only marginally improved accuracy, it would be recommended to drop more columns, change the number of values for each bin and create additional bins for anomalies in the columns.
