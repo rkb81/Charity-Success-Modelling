@@ -45,4 +45,4 @@ Final Model: 73%
 
 **Recommendation:**
 
-Because the added complexity to the model only marginally improved accuracy, it would be recommended to drop more columns, change the number of values for each bin and create additional bins for anomalies in the columns.
+Because the added complexity to the model only marginally improved accuracy, it would be recommended to drop more columns, change the number of values for each bin and create additional bins for anomalies in the columns. Additionally, the number of neurons, layers and epochs can be lowered in order to improve accuracy.
