@@ -4,7 +4,7 @@
 
 The purpose of this analysis appears to be to create a machine learning model that can predict whether a charitable organization will be successful based on various features provided in the dataset. This analysis involves preprocessing the data, including handling categorical variables, scaling the features, and then training and evaluating a deep learning model (a neural network) to make these predictions. The goal is to develop a predictive model that can help identify which charitable organizations are likely to be successful, which can be valuable for optimizing fundraising efforts and resource allocation.
 
-## Results
+## Results:
 
 **Data Preprocessing**
 
