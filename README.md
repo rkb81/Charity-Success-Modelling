@@ -18,7 +18,7 @@ The purpose of this analysis is to create a machine learning model that can pred
 
 ## Results:
 
-**Data Preprocessing**
+## Data Preprocessing
 
 Target Variable(s):
 - The target variable for the model in this analysis is 'IS_SUCCESSFUL'. This variable represents whether a charity organization's application for funding was successful (1) or not (0).
