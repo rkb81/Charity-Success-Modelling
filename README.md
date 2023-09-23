@@ -7,8 +7,8 @@
   - [Results](#results)
     - [Data Preprocessing](#data-preprocessing)
     - [Compiling, Training, and Evaluating the Model](#compiling-training-and-evaluating-the-model)
-  - [Overall Results](#overall-results)
-  - [Recommendation](#recommendation)
+- [Overall Results](#overall-results)
+- [Recommendation](#recommendation)
 
 ## Overview
 
