@@ -1,6 +1,6 @@
 # Deep Learning Challenge
 
-# Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
   - [Purpose of the Analysis](#purpose-of-the-analysis)
