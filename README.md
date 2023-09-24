@@ -1,4 +1,4 @@
-# Deep Learning Challenge
+# Enhancing Charitable Organization Success Prediction with Deep Learning
 
 ## Table of Contents
 
